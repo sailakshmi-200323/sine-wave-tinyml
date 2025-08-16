@@ -1,2 +1,3 @@
-A learning experiment in TinyML. 
+A learning experiment in TinyML.
+
 Cloud machine learning is a great approach but TinyMl is no less. Sinwave is a smooth continuous function which can be approximated with the help of a basic MLP model where the main keras model is optimized into tflite version including quantization. Finally converted to c array which can be directly deployed in a microcontroller that runs on the tflm framework. This showcases how a tiny device can be used for on device inference without relying on the cloud which gives rise to the potential of tinyMl for many real world applications.
